@@ -14,6 +14,7 @@ import "./assets/css/pe-icon-7.css";
 import "./assets/css/materialdesignicons.min.css";
 
 import "./assets/scss/themes.scss";
+import { Analytics } from "@vercel/analytics/react";
 
 class App extends Component {
   constructor(props) {
@@ -30,6 +31,7 @@ class App extends Component {
             ))}
           </Switch>
         </Router>
+        <Analytics />
       </React.Fragment>
     );
   }

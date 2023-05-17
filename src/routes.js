@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import Login from "../src/pages/Login";
+import Apply from "../src/pages/Apply";
 import Signup from "../src/pages/Signup";
 import PswForget from "../src/pages/PswForget";
 import Layout1 from "../src/pages/Layout1/Layout_1";
@@ -15,7 +15,7 @@ import Layout9 from "../src/pages/Layout9/Layout9";
 const routes = [
   // { path: "/password-forget", component: PswForget },
   // { path: "/sign-up", component: Signup },
-  // { path: "/login", component: Login },
+  { path: "/apply", component: Apply },
   // { path: "/Layout2", component: Layout2 },
   // { path: "/Layout3", component: Layout3 },
   // { path: "/Layout4", component: Layout4 },
