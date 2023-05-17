@@ -53,12 +53,18 @@ class Section extends Component {
                     Be prepared for language tests - CAT, GMAT, GRE, IELTS &
                     more. No homework, no assignments, just fun interactions!
                   </p>
-                  <Link
-                    to="https://docs.google.com/forms/d/e/1FAIpQLSfWtAsJq1mqvetf7guJdlUCVxOy4DV6b6QWkthrrQd5YNddYg/viewform"
-                    className="btn btn-primary rounded-pill me-2"
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfWtAsJq1mqvetf7guJdlUCVxOy4DV6b6QWkthrrQd5YNddYg/viewform"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    Try Now
-                  </Link>
+                    <button
+                      type="button"
+                      className="btn btn-primary rounded-pill me-2"
+                    >
+                      Try Now
+                    </button>
+                  </a>
                 </div>
                 <Row className="justify-content-center mt-5">
                   <Col md={8}>

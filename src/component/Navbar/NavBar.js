@@ -90,12 +90,18 @@ class NavbarPage extends Component {
                     </NavItem>
                   ))}
                 </Nav>
-                <Link
-                  to="https://docs.google.com/forms/d/e/1FAIpQLSfWtAsJq1mqvetf7guJdlUCVxOy4DV6b6QWkthrrQd5YNddYg/viewform"
-                  className="btn btn-sm rounded-pill nav-btn ms-lg-3"
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfWtAsJq1mqvetf7guJdlUCVxOy4DV6b6QWkthrrQd5YNddYg/viewform"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  Apply Now
-                </Link>
+                  <button
+                    type="button"
+                    className="btn btn-sm rounded-pill nav-btn ms-lg-3"
+                  >
+                    Apply Now
+                  </button>
+                </a>
               </ScrollspyNav>
             </Collapse>
           </Container>
