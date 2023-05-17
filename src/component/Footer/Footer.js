@@ -75,8 +75,8 @@ class Footer extends Component {
                     <img
                       src={logolight}
                       alt=""
-                      className="p-1 bg-white rounded-2"
-                      height="30"
+                      className="pt-1 px-1 bg-white rounded-2"
+                      height="40"
                     />
                   </Link>
                   <p className="text-white-50 my-4">
