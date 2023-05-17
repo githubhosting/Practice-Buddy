@@ -40,3 +40,7 @@
 .text-jus {
   text-align: justify;
 }
+.logo_cen {
+  justify-content: center;
+  display: flex;
+}

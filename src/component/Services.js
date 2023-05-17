@@ -26,7 +26,7 @@ export default class Services extends Component {
             <Row className="flex justify-content-center">
               <Col lg={6}>
                 <div className="service-box text-center px-2 py-5 position-relative mb-4">
-                  <div className="service-box-content p-4">
+                  <div className="service-box-content p-2">
                     <div className="icon-mono service-icon avatar-md mx-auto mb-4">
                       <i>
                         <FeatherIcon icon="box" />
@@ -46,8 +46,8 @@ export default class Services extends Component {
               </Col>
 
               <Col lg={6}>
-                <div className="service-box text-center px-2 py-5 position-relative mb-4 active">
-                  <div className="service-box-content p-4">
+                <div className="service-box text-center px-2 py-5 position-relative mb-4">
+                  <div className="service-box-content p-2">
                     <div className="icon-mono service-icon avatar-md mx-auto mb-4">
                       <i>
                         <FeatherIcon icon="layers" />
@@ -69,7 +69,7 @@ export default class Services extends Component {
 
               <Col lg={6}>
                 <div className="service-box text-center px-2 py-5 position-relative mb-4">
-                  <div className="service-box-content p-4">
+                  <div className="service-box-content p-2">
                     <div className="icon-mono service-icon avatar-md mx-auto mb-4">
                       <i>
                         <FeatherIcon icon="server" />

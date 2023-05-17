@@ -53,9 +53,9 @@ class NavbarPage extends Component {
             {/* LOGO */}
             <NavbarBrand className="logo" href="/">
               {this.props.imglight === true ? (
-                <img src={logodark} alt="" height="30" />
+                <img src={logodark} alt="" height="28" />
               ) : (
-                <img src={logodark} alt="" height="30" />
+                <img src={logodark} alt="" height="28" />
               )}
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle}>
@@ -90,21 +90,13 @@ class NavbarPage extends Component {
                     </NavItem>
                   ))}
                 </Nav>
-                {/* <Link
-                  to="/apply"
-                  className="btn btn-sm rounded-pill nav-btn ms-lg-3"
-                >
-                  Apply Now
-                </Link> */}
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWtAsJq1mqvetf7guJdlUCVxOy4DV6b6QWkthrrQd5YNddYg/viewform">
-                  <button
-                    type="button"
-                    className="btn btn-sm rounded-pill nav-btn ms-lg-3"
-                  >
-                    Apply Now
-                  </button>
-                </a>
               </ScrollspyNav>
+              <Link
+                to="/apply"
+                className="btn btn-sm rounded-pill nav-btn ms-lg-3"
+              >
+                Apply Now
+              </Link>
             </Collapse>
           </Container>
         </nav>
